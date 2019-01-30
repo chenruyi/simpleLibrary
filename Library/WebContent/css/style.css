@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+
+.demo{margin:60px auto;width:720px;}
+.navbox{float:left;}
+ul.nav{width:200px;padding:60px 0 60px 0;background:url() no-repeat;}
+ul.nav li{margin:5px 0 0 0;}
+ul.nav li a{
+    background:#cbcbcb url() no-repeat;color:#174867;padding:7px 15px 7px 15px;width:100px;display:block;text-decoration:none;
+    -webkit-transition:all 0.3s ease-out;
+    -moz-transition:all 0.3s ease-out;
+    -o-transition:all 0.3s ease-out;
+    -webkit-box-shadow:2px 2px 4px #888;
+    -moz-box-shadow:2px 2px 4px #888;
+    -o-box-shadow:2px 2px 4px #888;
+}
+ul.nav li a:hover{background:#ebebeb url() no-repeat;color:#67a5cd;padding:7px 15px 7px 30px;}
+
+
+.top{
+	font-size:20px;
+}
+
+.table-7 {
+  border: 1px solid #429fff; /* 表格边框 */
+  font-family: Arial;
+  
+  border-collapse: collapse; /* 边框重叠 */
+  margin: 50px auto;
+}
+.table-7 tr:hover {
+  background-color: #c4e4ff; /* 动态变色,IE6下无效！*/
+}
+.table-7 caption {
+  padding-top: 3px;
+  padding-bottom: 2px;
+  font: bold 20px;;
+  background-color: #f0f7ff;
+  border: 1px solid #429fff; /* 表格标题边框 */
+}
+.table-7 th {
+  border: 1px solid #429fff; /* 行、列名称边框 */
+  background-color: #d2e8ff;
+  font-weight: bold;
+  font-size:20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+.table-7 td {
+  border: 1px solid #429fff; /* 单元格边框 */
+  text-align: right;
+  padding: 4px;
+  font-size:20px;
+}
+
+/* :invalid { 
+  border-color: #e88;
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+  box-shadow:0 0 5px rgba(255, 0, 0, .8);
+}
+  */
+:required {
+  border-color: #88a;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+ 
+form {
+  width:300px;
+  margin: 20px auto;
+}
+ 
+input {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+ 
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+  
+input[type=password] {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+  
+  -webkit-border-radius:5px;
+  border-radius:5px;
+}
+input[type=submit] {
+  background:none;
+  padding:10px;
+}
+
+label{
+	float: left;
+}
+
+input[type=radio] {
+  font-size:1px;
+ float: left;
+  width:50px;
+ 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border:1px solid #ccc;
+  
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+ 
+}
+
+
+

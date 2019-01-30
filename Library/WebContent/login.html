@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js"> </script>
+<script src="js/demo.js"></script>   
+<title>图书管理系统</title>
+</head>
+<body >
+
+<h2> 欢迎进入</h2>
+<div align="center">
+<form action="LoginServlet" method="post">
+
+
+ 用户名
+<input id="userId" type="text" name="userId" maxlength="16" required>
+
+
+ 密码 
+<input id="password" type="password" name="password" maxlength="16" required>
+
+
+<input id="simpleUser" type="radio" name="role" value="user" checked>
+<label for="simpleUser">用户</label>
+<input id="admin" type="radio" name="role" value="admin">
+<label for="admin">管理员</label>
+
+<input type="submit" value="登陆">
+
+
+
+</form>
+</div>
+</body>
+</html>
